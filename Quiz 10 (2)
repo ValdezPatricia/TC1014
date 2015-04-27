@@ -1,0 +1,16 @@
+def dotproduct(v1,v2):
+	if(len(v1) != len(v2)):
+		print("Error, Las dos listas tiene que tener el mismo numero de numeros")
+		return(-1)
+	else:
+		
+		a = 0
+		for(x,y) in zip(v1, v2):
+			a = a + (x*y)
+		return a
+		
+		
+v1=[3,6,7,8,9]
+v2=[1,2,4,5,9]
+
+print(dotproduct(v1,v2))
