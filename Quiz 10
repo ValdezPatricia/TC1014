@@ -1,0 +1,14 @@
+#Valdez Patricia
+#Quiz10
+
+def findThrees(lista):
+	suma = 0
+	for i in lista:
+		if(i%3==0):
+			suma=suma+i
+	return suma
+
+
+lista=[3,4,6,9,8]
+
+print(findThrees(lista))
